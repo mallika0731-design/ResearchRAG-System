@@ -1,0 +1,35 @@
+# AI Research Paper Explainer — requirements
+# Install with: pip install -r requirements.txt
+
+# PDF extraction
+PyMuPDF>=1.23.0
+
+# Embeddings + reranking
+sentence-transformers>=2.7.0
+
+# Vector index
+faiss-cpu>=1.8.0
+
+# LLM inference
+transformers>=4.40.0
+accelerate>=0.28.0
+huggingface_hub>=0.22.0
+
+# NLP utilities
+nltk>=3.8.1
+
+# Numerics / data
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# HTTP (PDF download)
+requests>=2.31.0
+
+# UI
+streamlit>=1.33.0
+plotly>=5.20.0
+
+# Misc utilities
+tqdm>=4.66.0
+tabulate>=0.9.0
